@@ -10,18 +10,15 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Bootstrap Material Design -->
-    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-material-design.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/ripples.min.css">
-
     <link rel="stylesheet" type="text/css" href="myStyle.css">
+
+    <script src="js/canvasjs.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <script src="js/chartist.min.js"></script>
-    <link href="css/chartist.min.css" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+
+
     <meta charset="utf-8">
 
     <script src="mainJavascript.js"></script>
@@ -60,7 +57,7 @@
                                 <button class="btn btn-default dropdown-toggle" id="dropDown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     Dropdown
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <ul class="dropdown-menu" id="mainDropDown" aria-labelledby="dropdownMenu1">
                                     <?php
                                     require_once "getCurrPay.php";
                                     foreach ($earnings as $name=>$pay){
@@ -173,18 +170,20 @@
 
                 <div class="col-md-8" id="sideBar">
                     <div class="col-md-12">
-
-                        <div class="ct-chart"></div>
-
+                        <div id="chartContainer" style="height: 100%; width: 100%;"></div>
                     </div>
                 </div>
+            </div>
+
+            <div class="container">
+                <div class="center">&copy <?php echo date("Y"); ?> Jack Ferguson</div>
             </div>
         </div>
     </nav>
 </body>
 
-<script src="mainJavascript.js"></script>
+<script src="graphing.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script src="mainJavascript.js"></script>
 </html>
