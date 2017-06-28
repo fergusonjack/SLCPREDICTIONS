@@ -75,6 +75,17 @@
         'Theology and Religious Studies' => 21824,
         'Town and Country Planning and Landscape Design' => 22775,
         'Veterinary Medicine' => 26872
-    )
+    );
+
+
+    if (isset($_GET["deg"])){
+        echo $earnings[sanaString($_GET["deg"])];
+    }
+
+    function sanaString($var){
+        $var = strip_tags($var);
+        $var = htmlentities($var);
+        return stripslashes($var);
+    }
 
 ?>

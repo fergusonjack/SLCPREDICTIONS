@@ -3,6 +3,18 @@ county = 10;
 
 datalist = [];
 
+graduateSal = $("#gradSal").val();
+userrpi = $("#rpi").val();
+margin = $("#margin").val();
+payinc = $("#payinc").val();
+repaymentThres = $("#repaymentthres").val();
+repaymentThresInc = $("#replaymentthresinc").val();
+repayrate = $("#repayrate").val();
+years = $("#years").val();
+fees = $("#fees").val();
+industryLoan = $("#yiic").val();
+total = $("#total").val();
+
 
 window.onload = function () {
     chart = new CanvasJS.Chart("chartContainer", {
