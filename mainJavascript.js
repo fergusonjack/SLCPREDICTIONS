@@ -14,9 +14,17 @@ $('#inlineCheckbox1').click(function() {
     }
 });
 
+$('#inlineCheckbox1').click(function() {
+    $("#txtAge").toggle(this.checked);
+    if (this.checked) {
+        $('#gradSal').prop('readonly', true);
+    } else {
+        $('#gradSal').prop('readonly', false);
+    }
+});
+
 $(document).ready(function() {
     $(".txbx").keydown(function (e) {
-        console.log("yes")
         preventChar(e);
     })
 })

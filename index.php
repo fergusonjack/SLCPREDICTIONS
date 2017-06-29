@@ -76,7 +76,7 @@
                             <label>Graduate Salary</label>
                             <div class="input-group">
                                 <span class="input-group-addon">£</span>
-                                <input type="text" class="form-control txbx" id="gradSal"  aria-label="Amount (to the nearest dollar)" >
+                                <input type="text" class="form-control txbx" id="gradSal" value="21000" aria-label="Amount (to the nearest dollar)" >
                                 <span class="input-group-addon">.00</span>
                             </div>
                         </div>
@@ -134,8 +134,7 @@
                         <div class="form-group form-inline" id="padder repadder">
                             <label for="totalLoanAtEnd">Years of study</label>
                             <div class="input-group">
-                                <input id="years" type="text" class="txbx form-control" value=4 aria-label="Amount (to the nearest dollar)">
-                                <span class="input-group-addon">%</span>
+                                <input id="years" type="text" class="txbx form-control" value=3 aria-label="Amount (to the nearest dollar)">
                             </div>
                         </div>
 
@@ -149,12 +148,27 @@
 
                         <div class="form-group form-inline" id="padder repadder">
                             <label for="totalLoanAtEnd">Year in industry, cost of year</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">£</span>
+                                <input id="yiic" type="text" class="txbx form-control" value=400 aria-label="Amount (to the nearest dollar)">
+                            </div>
+                        </div>
+
+                        <div class="form-group form-inline" id="padder repadder">
+                            <label for="totalLoanAtEnd">Maintenance loan cost</label>
                             <div class="input-group" style="padding: 5px;">
                                 <span class="input-group-addon">£</span>
-                                <input id="yiic" type="text" class="txbx form-control" value=4 aria-label="Amount (to the nearest dollar)">
+                                <input id="mainLoan" type="text" class="txbx form-control" value=3000 aria-label="Amount (to the nearest dollar)">
 
                             </div>
-                            <input id="textBox1" type="checkbox" id="inlineCheckbox1" value="option1">
+                        </div>
+
+                        <div class="form-group form-inline" id="padder repadder">
+                            <label for="totalLoanAtEnd">Years taken of maintenance loan</label>
+                            <div class="input-group">
+                                <input id="yearsMainLoan" type="text" class="txbx form-control" value=4 aria-label="Amount (to the nearest dollar)">
+
+                            </div>
                         </div>
 
                         <div class="form-group form-inline" id="padder repadder">
@@ -162,6 +176,13 @@
                             <div class="input-group">
                                 <span class="input-group-addon">£</span>
                                 <input id="total" type="text" class="txbx form-control" value=000000 aria-label="Amount (to the nearest dollar)">
+                            </div>
+                        </div>
+
+                        <div class="form-group form-inline" id="padder repadder">
+                            <label for="totalLoanAtEnd">Finish year</label>
+                            <div class="input-group">
+                                <input id="endYear" type="text" class="txbx form-control" value=2020 aria-label="Amount (to the nearest dollar)">
                             </div>
                         </div>
 
@@ -184,7 +205,7 @@
     </nav>
 </body>
 
+<script src="mainJavascript.js"></script>
 <script src="graphing.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="mainJavascript.js"></script>
 </html>
