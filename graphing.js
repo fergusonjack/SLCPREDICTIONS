@@ -2,8 +2,23 @@ countx = 0;
 county = 10;
 
 datalist = [];
+datalist2 = [];
 
 $(document).ready(function () {
+    chart2 = new CanvasJS.Chart("chartContainer2", {
+        title: {
+            text: "Plot of salary"
+        },
+        backgroundColor: "#eeeeee",
+        data: [
+            {
+                // Change type to "doughnut", "line", "splineArea", etc.
+                type: "line",
+                dataPoints: datalist2
+            }
+        ]
+    });
+
     chart = new CanvasJS.Chart("chartContainer", {
         title: {
             text: "Plot of loan cost over time"
@@ -19,6 +34,7 @@ $(document).ready(function () {
     });
 
     chart.render();
+    chart2.render();
 
     graduateSal = parseInt($("#gradSal").val());
     userrpi = parseInt($("#rpi").val());
@@ -33,19 +49,21 @@ $(document).ready(function () {
     mainLoan = parseInt($("#mainLoan").val());
     mainLoanYears = parseInt($("#yearsMainLoan").val());
     total = parseInt($("#total").val());
+    endYear = parseInt($("#endYear").val());
     totalCalc()
+    graphReDraw()
 })
 
 $(document).ready(function () {
 
     $(".txbx").on("input", function () {
         graduateSal = parseInt($("#gradSal").val());
-        userrpi = parseFloat($("#rpi").val());
-        margin = parseFloat($("#margin").val());
-        payinc = parseFloat($("#payinc").val());
+        userrpi = parseInt($("#rpi").val());
+        margin = parseInt($("#margin").val());
+        payinc = parseInt($("#payinc").val());
         repaymentThres = parseInt($("#repaymentthres").val());
-        repaymentThresInc = parseFloat($("#replaymentthresinc").val());
-        repayrate = parseFloat($("#repayrate").val());
+        repaymentThresInc = parseInt($("#replaymentthresinc").val());
+        repayrate = parseInt($("#repayrate").val());
         years = parseInt($("#years").val());
         fees = parseInt($("#fees").val());
         industryLoan = parseInt($("#yiic").val());
@@ -53,7 +71,7 @@ $(document).ready(function () {
         mainLoanYears = parseInt($("#yearsMainLoan").val());
         total = parseInt($("#total").val());
         endYear = parseInt($("#endYear").val());
-        totalCalc();
+        totalCalc()
         graphReDraw()
     })
 })
@@ -61,8 +79,10 @@ $(document).ready(function () {
 
 function graphReDraw() {
     chart.render()
+    chart2.render()
     var startYear = endYear;
     var totalMargin = margin + userrpi;
+    var totalpaid = 0
 
     labelfor:
     for (i = 0; i <= 25; i++) {
@@ -71,15 +91,19 @@ function graphReDraw() {
         payment = (graduateSal - repaymentThres) * (repayrate/100);
         total = total * ((totalMargin + 100)/100)
         total = total-payment
+        totalpaid = totalpaid + payment
         var taxable = graduateSal - repaymentThres;
+
         if (total >= 0) {
             datalist[i] = ({x: startYear++, y: total})
+            datalist2[i] = ({x: startYear, y: graduateSal})
         } else {
             datalist[i] = ({x: startYear++, y: 0})
-
+            datalist2[i] = ({x: startYear, y: graduateSal})
         }
     }
     chart.render();
+    chart2.render()
 }
 
 function totalCalc() {

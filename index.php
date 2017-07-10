@@ -134,7 +134,7 @@
                         <div class="form-group form-inline" id="padder repadder">
                             <label for="totalLoanAtEnd">Years of study</label>
                             <div class="input-group">
-                                <input id="years" type="text" class="txbx form-control" value=3 aria-label="Amount (to the nearest dollar)">
+                                <input id="years" type="text" class="txbx form-control" value=3 aria-label="Amount (to the nearest dollar)" rel="popover" data-trigger="hover">
                             </div>
                         </div>
 
@@ -150,7 +150,7 @@
                             <label for="totalLoanAtEnd">Year in industry, cost of year</label>
                             <div class="input-group">
                                 <span class="input-group-addon">£</span>
-                                <input id="yiic" type="text" class="txbx form-control" value=400 aria-label="Amount (to the nearest dollar)">
+                                <input id="yiic" type="text" class="txbx form-control" value=400 aria-label="Amount (to the nearest dollar)" rel="popover" data-trigger="hover">
                             </div>
                         </div>
 
@@ -192,10 +192,10 @@
 
 
                 <div class="col-md-8" id="sideBar">
-                    <div class="col-md-12">
-                        <div id="chartContainer" style="height: 100%; width: 100%;"></div>
-                    </div>
+                    <div id="chartContainer" style="height: 50%; width: 100%;"></div>
+                    <div id="chartContainer2" style="height: 50%; width: 100%;"></div>
                 </div>
+
             </div>
 
             <div class="container">
@@ -207,5 +207,6 @@
 
 <script src="mainJavascript.js"></script>
 <script src="graphing.js"></script>
+<script src="graphing2.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

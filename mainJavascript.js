@@ -23,6 +23,24 @@ $('#inlineCheckbox1').click(function() {
     }
 });
 
+
+
+$(function () {
+    $("#years").popover({
+        title: 'Important',
+        content: "Not including the year you may or may not have in industry"
+    });
+});
+
+$(function () {
+    $("#yiic").popover({
+        title: 'Important',
+        content: "If you don't have a year in industry put 0"
+    });
+});
+
+
+
 $(document).ready(function() {
     $(".txbx").keydown(function (e) {
         preventChar(e);
