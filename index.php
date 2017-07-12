@@ -20,11 +20,7 @@
 
     <script src="js/jquery-3.2.1.min.js"></script>
 
-
     <meta charset="utf-8">
-
-    <script src="mainJavascript.js"></script>
-
     <title><?php echo "student loan forecaster"?></title>
 </head>
 

@@ -1,3 +1,5 @@
+noConflict();
+
 $("#mainDropDown a").click(function(e){
     e.preventDefault(); //prevent page reload
     var selText = $(this).text();
