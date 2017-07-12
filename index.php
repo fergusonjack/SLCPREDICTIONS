@@ -81,10 +81,7 @@
                         <div class="form-group form-inline" id="padder repadder">
                             <label for="rpilabel">Current RPI</label>
                             <div class="input-group">
-                                <?php
-                                    require_once "getRPI.php";
-                                    echo '<input id="rpi" type="text" class="form-control txbx" value=' . $RPI . ' aria-label="Amount (to the nearest dollar)">'
-                                ?>
+                                <input id="rpi" type="text" class="form-control txbx" value=2.7 aria-label="Amount (to the nearest dollar)">
                                 <span class="input-group-addon">%</span>
                             </div>
                         </div>
