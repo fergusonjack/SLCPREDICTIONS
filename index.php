@@ -81,7 +81,7 @@
                         <div class="form-group form-inline" id="padder repadder">
                             <label for="rpilabel">Current RPI</label>
                             <div class="input-group">
-                                <input id="rpi" type="text" class="form-control txbx" value=2.7 aria-label="Amount (to the nearest dollar)">
+                                <input id="rpi" type="text" class="form-control txbx" value=2.4 aria-label="Amount (to the nearest dollar)">
                                 <span class="input-group-addon">%</span>
                             </div>
                         </div>
@@ -205,4 +205,14 @@
 <script src="graphing.js"></script>
 <script src="graphing2.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67080220-4', 'auto');
+    ga('send', 'pageview');
+
+</script>
 </html>
