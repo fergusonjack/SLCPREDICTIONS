@@ -1,1 +1,5 @@
-<?php include_once "getRPI.php"; echo $RPI ?> 
+<?php
+
+echo preg_replace("/[^0-9]/" , "" , "123456789");
+
+?>

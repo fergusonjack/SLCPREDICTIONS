@@ -23,7 +23,62 @@ $('#inlineCheckbox1').click(function() {
     }
 });
 
+$(document).ready(function(){
+    $('#modalbtn').click(function() {
+        if (!$("input[name='x']:checked").val()) {
+            alert('Nothing is checked!');
+            return false;
+        }
+        else {
+            $("#chartContainer2").append('<div id="chartContainer" style="height: 50%; width: 100%;">appended</div>')
+        }
+    });
+});
 
+//displays the correct data in the modal for table data
+$(document).ready(function () {
+    $("#tableDataDisplayer").click(function () {
+        tableData = '<table class="table table-striped">';
+        tableData += '<tr><th>Graduate Salary</th><th>' + parseInt($("#gradSal").val()) + '</th></tr>'
+        tableData += '<tr><th>RPI</th><th>' + parseInt($("#rpi").val()) + '</th></tr>'
+        tableData += '<tr><th>Margin</th><th>' + parseInt($("#margin").val()) + '</th></tr>'
+        tableData += '<tr><th>Pay percentage increase</th><th>' + parseInt($("#payinc").val()) + '</th></tr>'
+        tableData += '<tr><th>Repayment threshold</th><th>' + parseInt($("#repaymentthres").val()) + '</th></tr>'
+        tableData += '<tr><th>Repayment threshold percenatge increase</th><th>' + parseInt($("#replaymentthresinc").val()) + '</th></tr>'
+        tableData += '<tr><th>Repayment rate over threshold</th><th>' + parseInt($("#repayrate").val()); + '</th></tr>'
+        tableData += '<tr><th>Degree years</th><th>' + parseInt($("#years").val()); + '</th></tr>'
+        tableData += '<tr><th>Tuition fees</th><th>' + parseInt($("#fees").val()) + '</th></tr>'
+        tableData += '<tr><th>Year in industry cost</th><th>' + parseInt($("#yiic").val()) + '</th></tr>'
+        tableData += '<tr><th>Maintence loan cost</th><th>' + parseInt($("#mainLoan").val()) + '</th></tr>'
+        tableData += '<tr><th>Years taken of maintence loan</th><th>' + parseInt($("#yearsMainLoan").val()) + '</th></tr>'
+        tableData += '<tr><th>Total</th><th>' + parseInt($("#total").val()) + '</th></tr>'
+        tableData += '<tr><th>Degree end</th><th>' + parseInt($("#endYear").val()) + '</th></tr>'
+        tableData += "</table>";
+        $("#tableDataBody").html(tableData)
+    })
+})
+
+
+$(document).ready( function () {
+    $("#downloadSpreadSheet").click( function () {
+        identNum = Math.floor((Math.random() * 10000000) + 1)
+        $.get("excelProc.php" ,
+            {
+                total: parseInt($("#total").val()),
+                repLim: parseInt($("#repaymentthres").val()),
+                thresInf: parseInt($("#replaymentthresinc").val()),
+                repaymentRate: parseInt($("#repayrate").val()),
+                startingPay: parseInt($("#gradSal").val()),
+                RPI: parseInt($("#rpi").val()),
+                margin: parseInt($("#margin").val()),
+                payinf: parseInt($("#payinc").val()),
+                IDNUM: identNum
+            }
+            , function () {
+                $("#mainNavBar").append('<li><a href=/exF/' + identNum + '.xlsx>Download .xlsx</a></li>')
+        })
+    })
+})
 
 $(function () {
     $("#years").popover({

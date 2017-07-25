@@ -1,5 +1,3 @@
-
-
 countx = 0;
 county = 10;
 
@@ -9,12 +7,11 @@ datalist2 = [];
 $(document).ready(function () {
     chart2 = new CanvasJS.Chart("chartContainer2", {
         title: {
-            text: "Plot of salary"
+            text: "Total paid"
         },
         backgroundColor: "#eeeeee",
         data: [
             {
-                // Change type to "doughnut", "line", "splineArea", etc.
                 type: "line",
                 dataPoints: datalist2
             }
@@ -23,12 +20,11 @@ $(document).ready(function () {
 
     chart = new CanvasJS.Chart("chartContainer", {
         title: {
-            text: "Plot of loan cost over time"
+            text: "Plot of loan over time"
         },
         backgroundColor: "#eeeeee",
         data: [
             {
-                // Change type to "doughnut", "line", "splineArea", etc.
                 type: "line",
                 dataPoints: datalist
             }
@@ -59,7 +55,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $(".txbx").on("input", function () {
-        graduateSal = parseInt($("#gradSal").val());
+        var graduateSal = parseInt($("#gradSal").val());
         userrpi = parseInt($("#rpi").val());
         margin = parseInt($("#margin").val());
         payinc = parseInt($("#payinc").val());
@@ -93,15 +89,17 @@ function graphReDraw() {
         payment = (graduateSal - repaymentThres) * (repayrate/100);
         total = total * ((totalMargin + 100)/100)
         total = total-payment
-        totalpaid = totalpaid + payment
+        if (total >= 0){
+            totalpaid = totalpaid + payment
+        }
         var taxable = graduateSal - repaymentThres;
 
         if (total >= 0) {
             datalist[i] = ({x: startYear++, y: total})
-            datalist2[i] = ({x: startYear, y: graduateSal})
+            datalist2[i] = ({x: startYear, y: totalpaid})
         } else {
             datalist[i] = ({x: startYear++, y: 0})
-            datalist2[i] = ({x: startYear, y: graduateSal})
+            datalist2[i] = ({x: startYear, y: totalpaid})
         }
     }
     chart.render();
@@ -112,19 +110,3 @@ function totalCalc() {
     total = ((years * fees) + industryLoan + (mainLoan * mainLoanYears));
     $("#total").val(total);
 }
-
-
-
-/*
- function clickUser() {
- countx = countx + 0.1;
- datalist.push(
- {x: (countx), y: (Math.cos(countx))}
- );
- chart.render();
- }
-
- var renderButton = document.getElementById("buttons");
- renderButton.addEventListener("click", clickUser);
-
- */
