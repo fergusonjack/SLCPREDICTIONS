@@ -37,4 +37,5 @@
 
     $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
     $objWriter->save("exF/" .  preg_replace("/[^0-9]/" , "" , $_GET["IDNUM"]) . ".xlsx");
+    readfile("exF/" .  preg_replace("/[^0-9]/" , "" , $_GET["IDNUM"]) . ".xlsx");
 ?>

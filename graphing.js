@@ -55,7 +55,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $(".txbx").on("input", function () {
-        var graduateSal = parseInt($("#gradSal").val());
+        graduateSal = parseInt($("#gradSal").val());
         userrpi = parseInt($("#rpi").val());
         margin = parseInt($("#margin").val());
         payinc = parseInt($("#payinc").val());
