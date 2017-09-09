@@ -41,7 +41,7 @@
             </div>
 
             <div class="jumbotron">
-                <h1>Student Finance Forecaster</h1>
+                <h1>Student Finance Forecaster (Plan 2)</h1>
                 <p>This website will help to predict how your student loan will increase or decrease over time considering many different parameters. These are shown at the side and can be changed or the pre-sets can be used as selected with the drop-down menu. The values that are used are kept up to date like the rpi etc and can be viewed in the table of data tab.</p>
                 <p><a class="btn btn-primary btn-lg" href="https://www.slc.co.uk/" role="button">SLC website</website></a></p>
             </div>
@@ -262,7 +262,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/postscribe/2.0.8/postscribe.min.js"></script>
 <script src="mainJavascript.js"></script>
 <script src="graphing.js"></script>
-<script src="graphing2.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
