@@ -41,7 +41,7 @@
             </div>
 
             <div class="jumbotron">
-                <h1>Student Finance Forecaster (Plan 2)</h1>
+                <h1>Student Finance Forecaster (Plan 2) </h1>
                 <p>This website will help to predict how your student loan will increase or decrease over time considering many different parameters. These are shown at the side and can be changed or the pre-sets can be used as selected with the drop-down menu. The values that are used are kept up to date like the rpi etc and can be viewed in the table of data tab.</p>
                 <p><a class="btn btn-primary btn-lg" href="https://www.slc.co.uk/" role="button">SLC website</website></a></p>
             </div>
