@@ -20,7 +20,7 @@ if (!file_exists("templateE.xlsx")) {
 
 
     /** setting excel documents */
-if (!(empty($_GET))){
+if (!(empty($_GET["total"]))){
 
     $objPHPExcel->getActiveSheet()->setCellValue('B2', preg_replace("/[^0-9]/" , "" , $_GET["total"]));
     $objPHPExcel->getActiveSheet()->setCellValue('B3', preg_replace("/[^0-9]/" , "" , $_GET["RPI"]) . "%");

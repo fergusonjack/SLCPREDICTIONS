@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a8ceb3-37bc-4239-a501-5a60b8717c77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excelProc.php" afterPath="$PROJECT_DIR$/excelProc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphing.js" afterPath="$PROJECT_DIR$/graphing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/canvasjs.min.js" afterPath="$PROJECT_DIR$/js/canvasjs.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="43" column="56" lean-forward="false" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+            <state relative-caret-position="476">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -37,10 +40,10 @@
       <file leaf-file-name="mainJavascript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainJavascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="901">
+              <caret line="53" column="60" lean-forward="false" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
               <folding>
-                <marker date="1501683463092" expanded="true" signature="913:938" ph="..." />
+                <marker date="1505666178342" expanded="true" signature="913:938" ph="..." />
               </folding>
             </state>
           </provider>
@@ -49,8 +52,8 @@
       <file leaf-file-name="excelProc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/excelProc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -76,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphing.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="graphing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -113,6 +116,9 @@
       <find>mainloan</find>
       <find>consol</find>
       <find>graphing2</find>
+      <find>Ua(</find>
+      <find>Va(this</find>
+      <find>(this)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,14 +134,15 @@
         <option value="$PROJECT_DIR$/getCurrPay.php" />
         <option value="$PROJECT_DIR$/myStyle.css" />
         <option value="$PROJECT_DIR$/getRpiS.js" />
-        <option value="$PROJECT_DIR$/graphing.js" />
         <option value="$PROJECT_DIR$/ExcelPhp/excelProc.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/graphing2.js" />
         <option value="$PROJECT_DIR$/webScraper.js" />
-        <option value="$PROJECT_DIR$/mainJavascript.js" />
-        <option value="$PROJECT_DIR$/excelProc.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/excelProc.php" />
+        <option value="$PROJECT_DIR$/mainJavascript.js" />
+        <option value="$PROJECT_DIR$/graphing.js" />
+        <option value="$PROJECT_DIR$/js/canvasjs.min.js" />
       </list>
     </option>
   </component>
@@ -177,6 +184,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainwebsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,13 +275,13 @@
     <configuration default="false" name="test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mainwebsite/test.php">
       <method />
     </configuration>
-    <configuration default="false" name="getRpiS.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="getRpiS.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
     <configuration default="false" name="excelProc.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mainwebsite/excelProc.php">
       <method />
     </configuration>
     <configuration default="false" name="webScraper.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="webScraper.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="mainJavascript.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="mainJavascript.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
@@ -301,17 +354,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.getRpiS.js" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.excelProc.php" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.webScraper.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.excelProc.php" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.webScraper.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.mainJavascript.js" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.excelProc.php" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.webScraper.js" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.getRpiS.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.mainJavascript.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.excelProc.php" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.webScraper.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
       </list>
     </recent_temporary>
   </component>
@@ -334,18 +387,21 @@
       <workItem from="1504692744578" duration="123000" />
       <workItem from="1504692945989" duration="4000" />
       <workItem from="1504693211903" duration="1044000" />
-      <workItem from="1504726124762" duration="1645000" />
+      <workItem from="1504726124762" duration="5428000" />
+      <workItem from="1505665167416" duration="1152000" />
+      <workItem from="1510081170162" duration="691000" />
+      <workItem from="1510083912471" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127662000" />
+    <option name="totallyTimeSpent" value="133380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -425,7 +481,7 @@
         <state relative-caret-position="289">
           <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
-            <marker date="1501683463092" expanded="true" signature="913:938" ph="..." />
+            <marker date="1505666178342" expanded="true" signature="913:938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -470,7 +526,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
-            <marker date="1501683463092" expanded="true" signature="913:938" ph="..." />
+            <marker date="1505666178342" expanded="true" signature="913:938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -515,7 +571,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
-            <marker date="1501683463092" expanded="true" signature="913:938" ph="..." />
+            <marker date="1505666178342" expanded="true" signature="913:938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -541,7 +597,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501683463092" expanded="true" signature="913:938" ph="..." />
+            <marker date="1505666178342" expanded="true" signature="913:938" ph="..." />
           </folding>
         </state>
       </provider>
@@ -575,8 +631,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/chartist.min.js" />
     <entry file="file://$PROJECT_DIR$/js/jquery-3.2.1.min.js" />
-    <entry file="file://$PROJECT_DIR$/js/canvasjs.min.js" />
-    <entry file="file://$PROJECT_DIR$/css/chartist.min.css" />
     <entry file="file://$PROJECT_DIR$/getRpiS.js" />
     <entry file="file://$PROJECT_DIR$/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,36 +674,51 @@
     <entry file="file://$PROJECT_DIR$/getCurrPay.php" />
     <entry file="file://$PROJECT_DIR$/graphing2.js" />
     <entry file="file://$PROJECT_DIR$/webScraper.js" />
+    <entry file="file://$PROJECT_DIR$/css/chartist.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/excelProc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainJavascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="901">
+          <caret line="53" column="60" lean-forward="false" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
           <folding>
-            <marker date="1501683463092" expanded="true" signature="913:938" ph="..." />
+            <marker date="1505666178342" expanded="true" signature="913:938" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="56" lean-forward="false" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        <state relative-caret-position="476">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/canvasjs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="105" column="69" lean-forward="false" selection-start-line="105" selection-start-column="69" selection-end-line="105" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
           <folding />
         </state>
       </provider>

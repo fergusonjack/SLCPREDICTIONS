@@ -89,6 +89,7 @@ function graphReDraw() {
         payment = (graduateSal - repaymentThres) * (repayrate/100);
         total = total * ((totalMargin + 100)/100)
         total = total-payment
+        
         if (total >= 0){
             totalpaid = totalpaid + payment
         }
